@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# real claim documents and runtime data never enter git
+samples/real/
+data/
+*.db
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# node
+node_modules/
+dist/
