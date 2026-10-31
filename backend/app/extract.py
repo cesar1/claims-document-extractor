@@ -15,6 +15,7 @@ from dotenv import load_dotenv
 
 from app.prompts import SYSTEM_PROMPT, USER_INSTRUCTION
 from app.schemas import ExtractionResult
+from app.validation import validate
 
 load_dotenv()
 
@@ -162,6 +163,15 @@ def main(paths: list[str]) -> int:
             f"in={ex.input_tokens} out={ex.output_tokens} ${ex.cost_usd:.4f}",
             file=sys.stderr,
         )
+        report = validate(ex.result)
+        status = "NEEDS REVIEW" if report.needs_review else "clean"
+        print(
+            f"  validation: {status} ({report.errors} errors, {report.warnings} warnings)",
+            file=sys.stderr,
+        )
+        for f in report.flags:
+            if f.severity.value != "info":
+                print(f"    [{f.severity.value}] {f.rule}: {f.message}", file=sys.stderr)
     print(f"[total] ${total:.4f}", file=sys.stderr)
     return 1 if failed else 0
 

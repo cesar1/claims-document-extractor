@@ -24,6 +24,7 @@ import anthropic
 from app import extract
 from app.schemas import ExtractionResult
 from app.scoring import score_document, summarize
+from app.validation import validate
 from pypdf import PdfReader
 
 # Rough token model from the real-document runs: ~2.5K input tokens/page, ~1.5K output base +
@@ -134,6 +135,7 @@ def score_run(run_dir: Path) -> dict:
     meta = json.loads((run_dir / "run.json").read_text())
     sample_dir = Path(meta["samples"])
     scores, failures, cost = [], [], 0.0
+    validations = []  # (doc_id, traps, ValidationReport)
     for pred_path in sorted((run_dir / "predictions").glob("*.json")):
         rec = json.loads(pred_path.read_text())
         cost += rec["cost_usd"] or 0
@@ -141,7 +143,9 @@ def score_run(run_dir: Path) -> dict:
             failures.append({"doc_id": rec["doc_id"], "error": rec["error"]})
             continue
         truth = json.loads((sample_dir / f"{rec['doc_id']}.truth.json").read_text())
-        scores.append(score_document(rec["doc_id"], truth, ExtractionResult.model_validate(rec["result"])))
+        result = ExtractionResult.model_validate(rec["result"])
+        scores.append(score_document(rec["doc_id"], truth, result))
+        validations.append((rec["doc_id"], truth.get("traps", []), validate(result)))
 
     report = {
         "run": run_dir.name,
@@ -162,6 +166,7 @@ def score_run(run_dir: Path) -> dict:
             for f in s.fields
             if not f.ok
         ],
+        "validation": validation_summary(validations),
         "line_issues": [
             {
                 "doc_id": s.doc_id,
@@ -184,6 +189,26 @@ def score_run(run_dir: Path) -> dict:
     (run_dir / "report.json").write_text(json.dumps(report, indent=2, default=str))
     (run_dir / "report.md").write_text(render_markdown(report))
     return report
+
+
+def validation_summary(validations) -> dict:
+    """How validation behaves on the sample set: printed math errors (math_error trap) should get an
+    error flag; nothing else should."""
+    math_docs = [(d, rep) for d, traps, rep in validations if "math_error" in traps]
+    other = [(d, rep) for d, traps, rep in validations if "math_error" not in traps]
+    rule_counts: dict[str, int] = {}
+    for _, _, rep in validations:
+        for f in rep.flags:
+            key = f"{f.severity.value}:{f.rule}"
+            rule_counts[key] = rule_counts.get(key, 0) + 1
+    return {
+        "docs_needing_review": sum(rep.needs_review for _, _, rep in validations),
+        "docs_with_errors": sum(bool(rep.errors) for _, _, rep in validations),
+        "math_error_docs": len(math_docs),
+        "math_error_docs_caught": sum(bool(rep.errors) for _, rep in math_docs),
+        "false_error_docs": [d for d, rep in other if rep.errors],
+        "rule_counts": dict(sorted(rule_counts.items())),
+    }
 
 
 def pct(x) -> str:
@@ -257,6 +282,21 @@ def render_markdown(r: dict) -> str:
             for x in r["line_issues"]
         ],
     ]
+    v = r.get("validation")
+    if v:
+        lines += [
+            "",
+            "## Validation",
+            "",
+            f"- Documents needing review: {v['docs_needing_review']} / {s['documents']}",
+            f"- Printed math errors caught: {v['math_error_docs_caught']} / {v['math_error_docs']}",
+            (
+                f"- Error flags on documents without a planted error: {len(v['false_error_docs'])} "
+                f"{v['false_error_docs'] or ''}"
+            ),
+            "",
+            *[f"- `{rule}`: {n}" for rule, n in v["rule_counts"].items()],
+        ]
     if r["failures"]:
         lines += [
             "",

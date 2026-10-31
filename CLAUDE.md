@@ -14,6 +14,9 @@ in `frontend/` (not built yet).
 - Cost estimate only: `backend/.venv/Scripts/python scripts/eval.py run samples/synthetic`
 - Spend (Batches, 50% off): add `--yes`. Results go to `data/eval/<run>/report.md`
 - Re-score saved predictions for free: `backend/.venv/Scripts/python scripts/eval.py score data/eval/<run>`
+- Validation rules (`backend/app/validation.py`) are scored in each report's "Validation" section: planted
+  printed-math errors must all get an error flag, and no other doc should. After changing a rule or the
+  confidence threshold (0.8, chosen from eval data), re-score saved runs for free to check both.
 
 ## Rules
 - **API budget is ~$5–15 total.** Never run live extraction, the eval, or anything that calls Claude

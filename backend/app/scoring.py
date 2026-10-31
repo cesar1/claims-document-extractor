@@ -10,6 +10,7 @@ from dataclasses import dataclass, field
 from difflib import SequenceMatcher
 
 from app.schemas import ExtractionResult
+from app.values import parse_number as _num
 
 NUMERIC = {
     "subtotal",
@@ -68,20 +69,6 @@ TRAP_TARGETS = {
     "time_distractors": {"alarm_time", "arrival_time"},
     "time_format": {"alarm_time", "arrival_time"},
 }
-
-
-def _num(v) -> float | None:
-    if v is None:
-        return None
-    if isinstance(v, (int, float)):
-        return float(v)
-    s = re.sub(r"[,$\s]", "", str(v))
-    if s.startswith("(") and s.endswith(")"):
-        s = "-" + s[1:-1]
-    try:
-        return float(s)
-    except ValueError:
-        return None
 
 
 def _norm(v) -> str:
