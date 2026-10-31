@@ -1,0 +1,76 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-4499393",
+    "policy_number": "HO285-903609",
+    "insured_name": "Victor Aguilar",
+    "property_address": "386 Nicholas Loop Apt. 838, New Javier, ND 80679",
+    "date_of_loss": "2026-03-13",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "vendor_name": "Gates, Hall and Yang",
+    "invoice_number": "INV-15420",
+    "invoice_date": "2026-03-18",
+    "subtotal": 7615.16,
+    "tax": 475.95,
+    "total": 7965.43,
+    "amount_due": 5575.8
+  },
+  "line_items": [
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 729.36,
+      "amount": 2188.08,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 179.42,
+      "amount": 538.26,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 471.95,
+      "amount": 2831.7,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 265.47,
+      "amount": 796.41,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 1,
+      "unit": "MO",
+      "unit_price": 181.07,
+      "amount": 181.07,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 269.91,
+      "amount": 1079.64,
+      "category": null
+    }
+  ],
+  "traps": [
+    "math_error",
+    "conflicting_dates",
+    "stamp",
+    "label_variants"
+  ],
+  "scan": false
+}

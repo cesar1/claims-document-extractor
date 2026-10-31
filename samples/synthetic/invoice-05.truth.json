@@ -1,0 +1,38 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-9461455",
+    "policy_number": null,
+    "insured_name": "Julie Wells",
+    "property_address": "3337 Bruce Club, Lozanoport, WI 06628",
+    "date_of_loss": "2026-07-25",
+    "cause_of_loss": "wind",
+    "cause_of_loss_detail": "Wind - fallen tree",
+    "vendor_name": "Chen, Gonzalez and Greene",
+    "invoice_number": "INV-77040",
+    "invoice_date": "2026-07-28",
+    "subtotal": 3153.57,
+    "tax": 252.29,
+    "total": 3405.86,
+    "amount_due": 3405.86
+  },
+  "line_items": [
+    {
+      "description": "Labor - technician",
+      "quantity": 36.0,
+      "unit": "HR",
+      "unit_price": 82.85,
+      "amount": 2982.6,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 3.0,
+      "unit": "HR",
+      "unit_price": 56.99,
+      "amount": 170.97,
+      "category": null
+    }
+  ],
+  "scan": false
+}

@@ -1,0 +1,107 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-3069642",
+    "policy_number": "HO380-595342",
+    "insured_name": "Nicole Campbell",
+    "property_address": "80829 Burch Run, Brownside, ME 71994",
+    "date_of_loss": null,
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - electrical",
+    "vendor_name": "Cook LLC",
+    "invoice_number": "INV-36252",
+    "invoice_date": "2026-06-09",
+    "subtotal": 13723.5,
+    "tax": 0.0,
+    "total": 13723.5,
+    "amount_due": 13723.5
+  },
+  "line_items": [
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 454.81,
+      "amount": 1819.24,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 439.99,
+      "amount": 1759.96,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 31.4,
+      "unit": "HR",
+      "unit_price": 64.72,
+      "amount": 2032.21,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 596.97,
+      "amount": 1790.91,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 238.71,
+      "amount": 954.84,
+      "category": null
+    },
+    {
+      "description": "Labor - technician",
+      "quantity": 28.0,
+      "unit": "HR",
+      "unit_price": 75.85,
+      "amount": 2123.8,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 471.88,
+      "amount": 1415.64,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 20.3,
+      "unit": "HR",
+      "unit_price": 84.42,
+      "amount": 1713.73,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 254.61,
+      "amount": 254.61,
+      "category": null
+    },
+    {
+      "description": "Insurance adjustment",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": -141.44,
+      "amount": -141.44,
+      "category": null
+    }
+  ],
+  "traps": [
+    "credit_line",
+    "conflicting_dates",
+    "claim_in_text"
+  ],
+  "scan": false
+}

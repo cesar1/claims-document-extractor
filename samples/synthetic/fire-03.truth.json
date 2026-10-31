@@ -1,0 +1,23 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Lynn Reynolds",
+    "property_address": "735 Lee Lakes, Johnsonchester, IA 82474",
+    "date_of_loss": "2026-04-04",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - unattended cooking on range top",
+    "incident_number": "2026-42319",
+    "fire_department": "Williamston Fire Department",
+    "alarm_time": "2026-04-04T07:01",
+    "arrival_time": "2026-04-04T07:08",
+    "area_of_origin": "Kitchen",
+    "cause_determination": "Accidental - unattended cooking on range top",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the kitchen. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "scan": false
+}

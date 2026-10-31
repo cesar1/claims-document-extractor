@@ -1,0 +1,86 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-8600726",
+    "policy_number": null,
+    "insured_name": "Juan Williams",
+    "property_address": "234 Dixon Field Suite 606, Lake Christopher, VA 54356",
+    "date_of_loss": "2026-06-12",
+    "cause_of_loss": "smoke",
+    "cause_of_loss_detail": "Smoke damage from neighboring unit fire",
+    "vendor_name": "Mendez-Taylor",
+    "invoice_number": "INV-58688",
+    "invoice_date": "2026-06-21",
+    "subtotal": 8642.75,
+    "tax": 691.42,
+    "total": 9334.17,
+    "amount_due": 9334.17
+  },
+  "line_items": [
+    {
+      "description": "Electrical inspection",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 204.04,
+      "amount": 408.08,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 480.52,
+      "amount": 1922.08,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 595.95,
+      "amount": 1787.85,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 333.42,
+      "amount": 1000.26,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 262.07,
+      "amount": 262.07,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 1,
+      "unit": "MO",
+      "unit_price": 199.73,
+      "amount": 199.73,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 517.41,
+      "amount": 2069.64,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 496.52,
+      "amount": 993.04,
+      "category": null
+    }
+  ],
+  "scan": true
+}

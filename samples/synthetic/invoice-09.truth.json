@@ -1,0 +1,70 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-4309442",
+    "policy_number": null,
+    "insured_name": "Ronald Gallagher",
+    "property_address": "701 Conrad Views Suite 731, East Edwin, TX 14773",
+    "date_of_loss": "2026-01-04",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "vendor_name": "Haynes, Bradford and Jacobson",
+    "invoice_number": "INV-90371",
+    "invoice_date": "2026-01-10",
+    "subtotal": 6596.66,
+    "tax": 527.73,
+    "total": 7124.39,
+    "amount_due": 7124.39
+  },
+  "line_items": [
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 619.09,
+      "amount": 1857.27,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 388.78,
+      "amount": 388.78,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 435.29,
+      "amount": 1741.16,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 357.45,
+      "amount": 714.9,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 481.3,
+      "amount": 1443.9,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 450.65,
+      "amount": 450.65,
+      "category": null
+    }
+  ],
+  "scan": false
+}

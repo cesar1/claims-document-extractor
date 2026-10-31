@@ -1,0 +1,99 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-8798746",
+    "policy_number": null,
+    "insured_name": "Joshua Wilson",
+    "property_address": "2585 Hubbard Lodge, Lake Jack, FM 45290",
+    "date_of_loss": "2026-04-03",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - kitchen grease fire",
+    "vendor_name": "Harrison-Smith",
+    "invoice_number": "INV-12751",
+    "invoice_date": "2026-04-29",
+    "subtotal": 7563.88,
+    "tax": 472.74,
+    "total": 8036.62,
+    "amount_due": 8036.62
+  },
+  "line_items": [
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 543.49,
+      "amount": 1086.98,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 423.29,
+      "amount": 423.29,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 475.95,
+      "amount": 1903.8,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 3,
+      "unit": "MO",
+      "unit_price": 259.13,
+      "amount": 777.39,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 2,
+      "unit": "MO",
+      "unit_price": 206.44,
+      "amount": 412.88,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 21.6,
+      "unit": "HR",
+      "unit_price": 57.88,
+      "amount": 1250.21,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 458.4,
+      "amount": 458.4,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 366.24,
+      "amount": 1464.96,
+      "category": null
+    },
+    {
+      "description": "Courtesy discount",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": -214.03,
+      "amount": -214.03,
+      "category": null
+    }
+  ],
+  "traps": [
+    "credit_line",
+    "conflicting_dates",
+    "claim_in_text"
+  ],
+  "scan": false
+}

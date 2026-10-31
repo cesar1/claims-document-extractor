@@ -1,0 +1,428 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-5401274",
+    "policy_number": null,
+    "insured_name": "Leslie Combs",
+    "property_address": "1049 Erika Harbors Suite 490, South Shawn, AK 35420",
+    "date_of_loss": "2026-05-13",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - electrical",
+    "contractor_name": "Maxwell Inc Restoration",
+    "contractor_license": "CRC160027",
+    "estimate_number": "EST-6893",
+    "estimate_date": "2026-05-19",
+    "subtotal": 21429.9,
+    "tax": 1339.37,
+    "overhead_and_profit": 4285.98,
+    "total": 27162.98
+  },
+  "line_items": [
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 181.45,
+      "unit": "SF",
+      "unit_price": 0.52,
+      "amount": 94.35,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 268.2,
+      "unit": "SF",
+      "unit_price": 0.26,
+      "amount": 69.73,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 115.05,
+      "unit": "SF",
+      "unit_price": 0.79,
+      "amount": 90.89,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 216.74,
+      "unit": "SF",
+      "unit_price": 0.72,
+      "amount": 156.05,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 621.74,
+      "unit": "SF",
+      "unit_price": 0.42,
+      "amount": 261.13,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 35.39,
+      "amount": 35.39,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 199.28,
+      "unit": "SF",
+      "unit_price": 0.48,
+      "amount": 95.65,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 55.98,
+      "unit": "LF",
+      "unit_price": 2.74,
+      "amount": 153.39,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 439.08,
+      "unit": "SF",
+      "unit_price": 0.68,
+      "amount": 298.57,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 588.59,
+      "unit": "SF",
+      "unit_price": 0.54,
+      "amount": 317.84,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 185.0,
+      "unit": "SF",
+      "unit_price": 0.34,
+      "amount": 62.9,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 382.99,
+      "unit": "SF",
+      "unit_price": 1.16,
+      "amount": 444.27,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 149.39,
+      "amount": 597.56,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 114.41,
+      "unit": "SF",
+      "unit_price": 0.59,
+      "amount": 67.5,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 27.86,
+      "amount": 167.16,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 26.35,
+      "amount": 79.05,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 58.05,
+      "unit": "LF",
+      "unit_price": 3.8,
+      "amount": 220.59,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 55.54,
+      "unit": "LF",
+      "unit_price": 3.65,
+      "amount": 202.72,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 135.66,
+      "unit": "SF",
+      "unit_price": 0.51,
+      "amount": 69.19,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 377.51,
+      "unit": "SF",
+      "unit_price": 4.0,
+      "amount": 1510.04,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 154.56,
+      "amount": 618.24,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 28.9,
+      "unit": "HR",
+      "unit_price": 54.25,
+      "amount": 1567.82,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 246.21,
+      "amount": 492.42,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 15.35,
+      "unit": "SQ",
+      "unit_price": 277.85,
+      "amount": 4265.0,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 73.76,
+      "amount": 73.76,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 108.39,
+      "unit": "SF",
+      "unit_price": 0.89,
+      "amount": 96.47,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 529.52,
+      "unit": "SF",
+      "unit_price": 1.18,
+      "amount": 624.83,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 599.02,
+      "unit": "SF",
+      "unit_price": 0.97,
+      "amount": 581.05,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 151.91,
+      "amount": 607.64,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 591.73,
+      "unit": "SF",
+      "unit_price": 0.5,
+      "amount": 295.87,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 36.09,
+      "amount": 216.54,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 151.28,
+      "amount": 453.84,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 315.43,
+      "unit": "SF",
+      "unit_price": 0.28,
+      "amount": 88.32,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 34.82,
+      "unit": "SF",
+      "unit_price": 1.04,
+      "amount": 36.21,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 183.07,
+      "amount": 732.28,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 411.11,
+      "unit": "SF",
+      "unit_price": 2.36,
+      "amount": 970.22,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 193.99,
+      "unit": "SF",
+      "unit_price": 1.31,
+      "amount": 254.13,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 12.4,
+      "unit": "HR",
+      "unit_price": 59.88,
+      "amount": 742.51,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 172.52,
+      "amount": 172.52,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 413.36,
+      "unit": "SF",
+      "unit_price": 1.16,
+      "amount": 479.5,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 527.53,
+      "unit": "SF",
+      "unit_price": 0.35,
+      "amount": 184.64,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 411.62,
+      "unit": "SF",
+      "unit_price": 0.42,
+      "amount": 172.88,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 281.32,
+      "unit": "SF",
+      "unit_price": 0.73,
+      "amount": 205.36,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 72.48,
+      "amount": 434.88,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 535.24,
+      "unit": "SF",
+      "unit_price": 1.34,
+      "amount": 717.22,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 554.84,
+      "unit": "SF",
+      "unit_price": 0.33,
+      "amount": 183.1,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 122.42,
+      "unit": "SF",
+      "unit_price": 2.93,
+      "amount": 358.69,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 237.12,
+      "unit": "SF",
+      "unit_price": 2.35,
+      "amount": 557.23,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 33.25,
+      "amount": 199.5,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 2,
+      "unit": "DA",
+      "unit_price": 26.63,
+      "amount": 53.26,
+      "category": "Kitchen"
+    }
+  ],
+  "traps": [
+    "long_table",
+    "math_error",
+    "label_variants"
+  ],
+  "scan": false
+}

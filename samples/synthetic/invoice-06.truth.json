@@ -1,0 +1,78 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-9252208",
+    "policy_number": "HO930-933592",
+    "insured_name": "Paul Rangel",
+    "property_address": "91284 Anderson Viaduct, Oliviastad, IN 65760",
+    "date_of_loss": "2026-02-19",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - kitchen grease fire",
+    "vendor_name": "Long-Moore",
+    "invoice_number": "INV-18587",
+    "invoice_date": "2026-03-18",
+    "subtotal": 8021.19,
+    "tax": 501.32,
+    "total": 8522.51,
+    "amount_due": 5965.76
+  },
+  "line_items": [
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 257.72,
+      "amount": 515.44,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 214.46,
+      "amount": 857.84,
+      "category": null
+    },
+    {
+      "description": "Labor - technician",
+      "quantity": 38.6,
+      "unit": "HR",
+      "unit_price": 76.8,
+      "amount": 2964.48,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 256.58,
+      "amount": 513.16,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 404.63,
+      "amount": 809.26,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 26.2,
+      "unit": "HR",
+      "unit_price": 63.35,
+      "amount": 1659.77,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 175.31,
+      "amount": 701.24,
+      "category": null
+    }
+  ],
+  "scan": false
+}

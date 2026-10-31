@@ -1,0 +1,135 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-7993425",
+    "policy_number": null,
+    "insured_name": "Lindsay Romero",
+    "property_address": "848 Mary Dam, Martinezmouth, MD 10009",
+    "date_of_loss": "2026-03-01",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Structure fire",
+    "contractor_name": "Allen, Jones and Caldwell Restoration",
+    "contractor_license": "CRC896463",
+    "estimate_number": "EST-5815",
+    "estimate_date": "2026-03-12",
+    "subtotal": 18222.35,
+    "tax": 1138.9,
+    "overhead_and_profit": null,
+    "total": 19361.25
+  },
+  "line_items": [
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 2,
+      "unit": "DA",
+      "unit_price": 30.71,
+      "amount": 61.42,
+      "category": "Hallway"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 225.59,
+      "unit": "SF",
+      "unit_price": 0.71,
+      "amount": 160.17,
+      "category": "Hallway"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 22.0,
+      "unit": "HR",
+      "unit_price": 63.59,
+      "amount": 1398.98,
+      "category": "Hallway"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 92.43,
+      "amount": 369.72,
+      "category": "Hallway"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 606.01,
+      "unit": "SF",
+      "unit_price": 0.7,
+      "amount": 424.21,
+      "category": "Hallway"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 157.12,
+      "unit": "SF",
+      "unit_price": 0.73,
+      "amount": 114.7,
+      "category": "Hallway"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 136.64,
+      "unit": "SF",
+      "unit_price": 0.71,
+      "amount": 97.01,
+      "category": "Hallway"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 31.75,
+      "unit": "SQ",
+      "unit_price": 253.7,
+      "amount": 8054.97,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 533.29,
+      "unit": "SF",
+      "unit_price": 0.88,
+      "amount": 469.3,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 2,
+      "unit": "DA",
+      "unit_price": 69.6,
+      "amount": 139.2,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 166.72,
+      "unit": "SF",
+      "unit_price": 0.23,
+      "amount": 38.35,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 20.89,
+      "unit": "SQ",
+      "unit_price": 310.87,
+      "amount": 6494.07,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 86.64,
+      "unit": "SF",
+      "unit_price": 0.9,
+      "amount": 77.98,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 148.51,
+      "unit": "SF",
+      "unit_price": 2.17,
+      "amount": 322.27,
+      "category": "Bathroom"
+    }
+  ],
+  "scan": true
+}

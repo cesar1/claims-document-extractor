@@ -1,0 +1,23 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Joseph King",
+    "property_address": "73233 Juan Prairie Apt. 516, Victoriahaven, NC 30828",
+    "date_of_loss": "2026-01-25",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Undetermined - fire damage too extensive to determine cause",
+    "incident_number": "2026-47189",
+    "fire_department": "Lake Steventon Fire Department",
+    "alarm_time": "2026-01-25T07:19",
+    "arrival_time": "2026-01-25T07:26",
+    "area_of_origin": "Attic",
+    "cause_determination": "Undetermined - fire damage too extensive to determine cause",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the attic. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "scan": false
+}

@@ -1,0 +1,27 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Sabrina Davis",
+    "property_address": "08687 Stacey Inlet Suite 461, Wendyland, MN 10245",
+    "date_of_loss": "2026-04-22",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - electrical failure in extension cord",
+    "incident_number": "2026-64693",
+    "fire_department": "North Elizabeth Fire Department",
+    "alarm_time": "2026-04-22T04:45",
+    "arrival_time": "2026-04-22T04:56",
+    "area_of_origin": "Garage",
+    "cause_determination": "Accidental - electrical failure in extension cord",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the garage. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "traps": [
+    "time_distractors",
+    "conflicting_dates"
+  ],
+  "scan": true
+}

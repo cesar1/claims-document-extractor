@@ -1,0 +1,38 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-8047636",
+    "policy_number": "HO355-546420",
+    "insured_name": "Douglas Willis",
+    "property_address": "44319 Diane Stravenue Suite 572, Jenniferberg, AZ 94218",
+    "date_of_loss": "2026-07-19",
+    "cause_of_loss": "smoke",
+    "cause_of_loss_detail": "Smoke damage from neighboring unit fire",
+    "vendor_name": "Burton, Gross and Burnett",
+    "invoice_number": "INV-33430",
+    "invoice_date": "2026-07-20",
+    "subtotal": 2398.02,
+    "tax": 149.88,
+    "total": 2547.9,
+    "amount_due": 1783.53
+  },
+  "line_items": [
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 359.4,
+      "amount": 1437.6,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 480.21,
+      "amount": 960.42,
+      "category": null
+    }
+  ],
+  "scan": true
+}

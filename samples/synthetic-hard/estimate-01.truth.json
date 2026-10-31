@@ -1,0 +1,252 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-8812311",
+    "policy_number": "HO975-715917",
+    "insured_name": "Shaun Castro",
+    "property_address": "8932 Soto Underpass Apt. 174, North Amanda, UT 83659",
+    "date_of_loss": "2026-04-26",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "contractor_name": "Larson Group Restoration",
+    "contractor_license": "CRC760479",
+    "estimate_number": "EST-4050",
+    "estimate_date": "2026-05-01",
+    "subtotal": 45281.04,
+    "tax": 1258.66,
+    "overhead_and_profit": 8804.47,
+    "total": 54057.92
+  },
+  "line_items": [
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 39.65,
+      "unit": "LF",
+      "unit_price": 3.81,
+      "amount": 186.55,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 59.87,
+      "unit": "LF",
+      "unit_price": 289.55,
+      "amount": 21338.38,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 38.74,
+      "unit": "SF",
+      "unit_price": 0.32,
+      "amount": 15.18,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 623.57,
+      "unit": "SF",
+      "unit_price": 1.32,
+      "amount": 1006.33,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 510.46,
+      "unit": "SF",
+      "unit_price": 0.66,
+      "amount": 418.66,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 229.53,
+      "unit": "SF",
+      "unit_price": 0.39,
+      "amount": 109.83,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 175.22,
+      "unit": "SF",
+      "unit_price": 3.39,
+      "amount": 734.82,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 648.68,
+      "unit": "SF",
+      "unit_price": 0.22,
+      "amount": 175.15,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 149.84,
+      "amount": 185.75,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 543.08,
+      "unit": "SF",
+      "unit_price": 0.4,
+      "amount": 268.22,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 151.5,
+      "unit": "SF",
+      "unit_price": 1.2,
+      "amount": 223.27,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 200.66,
+      "amount": 491.84,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 395.12,
+      "unit": "SF",
+      "unit_price": 2.35,
+      "amount": 1148.98,
+      "category": "Living Room"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 347.05,
+      "unit": "SF",
+      "unit_price": 0.81,
+      "amount": 343.86,
+      "category": "Living Room"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 437.34,
+      "unit": "SF",
+      "unit_price": 0.79,
+      "amount": 423.83,
+      "category": "Living Room"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 242.36,
+      "amount": 299.05,
+      "category": "Living Room"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 152.12,
+      "unit": "SF",
+      "unit_price": 0.91,
+      "amount": 171.7,
+      "category": "Living Room"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 284.12,
+      "unit": "SF",
+      "unit_price": 3.93,
+      "amount": 1379.11,
+      "category": "Living Room"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 42.46,
+      "unit": "SF",
+      "unit_price": 2.95,
+      "amount": 153.8,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 510.21,
+      "unit": "SF",
+      "unit_price": 0.69,
+      "amount": 437.13,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 34.85,
+      "amount": 128.2,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 193.28,
+      "amount": 944.83,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 26.32,
+      "unit": "SQ",
+      "unit_price": 260.1,
+      "amount": 8403.98,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 301.88,
+      "unit": "SF",
+      "unit_price": 0.63,
+      "amount": 234.2,
+      "category": "Kitchen"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 59.46,
+      "unit": "LF",
+      "unit_price": 185.05,
+      "amount": 13457.46,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 298.17,
+      "unit": "SF",
+      "unit_price": 0.55,
+      "amount": 200.99,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 254.17,
+      "unit": "SF",
+      "unit_price": 0.76,
+      "amount": 237.55,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 215.81,
+      "unit": "SF",
+      "unit_price": 3.63,
+      "amount": 966.86,
+      "category": "Kitchen"
+    }
+  ],
+  "traps": [
+    "xactimate",
+    "math_error",
+    "label_variants"
+  ],
+  "scan": false
+}

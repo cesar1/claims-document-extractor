@@ -1,0 +1,231 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-1019327",
+    "policy_number": "HO408-583069",
+    "insured_name": "Sharon Moore",
+    "property_address": "01826 Margaret Forest, West Jasonhaven, IA 77366",
+    "date_of_loss": "2026-02-27",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "contractor_name": "Green-Barnes Restoration",
+    "contractor_license": "CRC598392",
+    "estimate_number": "EST-9962",
+    "estimate_date": "2026-03-08",
+    "subtotal": 17786.19,
+    "tax": 1289.5,
+    "overhead_and_profit": 3557.24,
+    "total": 22632.93
+  },
+  "line_items": [
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 25.57,
+      "unit": "LF",
+      "unit_price": 226.62,
+      "amount": 5794.67,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 485.65,
+      "unit": "SF",
+      "unit_price": 0.31,
+      "amount": 150.55,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 161.82,
+      "amount": 323.64,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 619.71,
+      "unit": "SF",
+      "unit_price": 0.32,
+      "amount": 198.31,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 77.51,
+      "amount": 310.04,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 600.81,
+      "unit": "SF",
+      "unit_price": 3.3,
+      "amount": 1982.67,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 281.69,
+      "unit": "SF",
+      "unit_price": 4.55,
+      "amount": 1281.69,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 298.73,
+      "unit": "SF",
+      "unit_price": 0.33,
+      "amount": 98.58,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 29.57,
+      "amount": 29.57,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 10.74,
+      "unit": "LF",
+      "unit_price": 259.05,
+      "amount": 2782.2,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 88.0,
+      "amount": 528.0,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 198.37,
+      "amount": 198.37,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 191.56,
+      "unit": "SF",
+      "unit_price": 0.94,
+      "amount": 180.07,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 54.84,
+      "unit": "SF",
+      "unit_price": 0.25,
+      "amount": 13.71,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 182.07,
+      "unit": "SF",
+      "unit_price": 1.22,
+      "amount": 222.13,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 66.02,
+      "amount": 264.08,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 71.64,
+      "amount": 286.56,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 248.29,
+      "amount": 993.16,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 648.44,
+      "unit": "SF",
+      "unit_price": 0.43,
+      "amount": 278.83,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 136.87,
+      "unit": "SF",
+      "unit_price": 0.92,
+      "amount": 125.92,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 216.45,
+      "unit": "SF",
+      "unit_price": 2.76,
+      "amount": 597.4,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 259.48,
+      "unit": "SF",
+      "unit_price": 0.86,
+      "amount": 223.15,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 361.16,
+      "unit": "SF",
+      "unit_price": 0.76,
+      "amount": 274.48,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 484.51,
+      "unit": "SF",
+      "unit_price": 0.77,
+      "amount": 373.07,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 2,
+      "unit": "DA",
+      "unit_price": 34.71,
+      "amount": 69.42,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 34.32,
+      "amount": 205.92,
+      "category": "Bathroom"
+    }
+  ],
+  "scan": false
+}

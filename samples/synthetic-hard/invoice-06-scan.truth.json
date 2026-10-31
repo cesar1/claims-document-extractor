@@ -1,0 +1,66 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-9511376",
+    "policy_number": "HO169-695459",
+    "insured_name": "Deborah Smith",
+    "property_address": "4588 Coffey Port Apt. 718, South Sarahburgh, MS 62335",
+    "date_of_loss": "2026-01-25",
+    "cause_of_loss": "smoke",
+    "cause_of_loss_detail": "Smoke damage from neighboring unit fire",
+    "vendor_name": "Foley PLC",
+    "invoice_number": "INV-48531",
+    "invoice_date": "2026-02-06",
+    "subtotal": 6252.58,
+    "tax": 0.0,
+    "total": 6252.58,
+    "amount_due": 6252.58
+  },
+  "line_items": [
+    {
+      "description": "Storage container rental",
+      "quantity": 3,
+      "unit": "MO",
+      "unit_price": 210.18,
+      "amount": 630.54,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 526.66,
+      "amount": 1053.32,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 23.2,
+      "unit": "HR",
+      "unit_price": 68.78,
+      "amount": 1595.7,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 454.2,
+      "amount": 2271.0,
+      "category": null
+    },
+    {
+      "description": "Labor - technician",
+      "quantity": 8.6,
+      "unit": "HR",
+      "unit_price": 81.63,
+      "amount": 702.02,
+      "category": null
+    }
+  ],
+  "traps": [
+    "conflicting_dates",
+    "label_variants"
+  ],
+  "scan": true
+}

@@ -1,0 +1,111 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": null,
+    "policy_number": "HO868-309001",
+    "insured_name": "Robert Hayden",
+    "property_address": "955 Wheeler Prairie, Jonesland, KY 62642",
+    "date_of_loss": "2026-01-22",
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water heater failure",
+    "contractor_name": "Beck, Brown and Miles Restoration",
+    "contractor_license": "CRC448669",
+    "estimate_number": "EST-7485",
+    "estimate_date": "2026-02-07",
+    "subtotal": 29927.99,
+    "tax": 1870.5,
+    "overhead_and_profit": 5985.6,
+    "total": 37784.09
+  },
+  "line_items": [
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 118.22,
+      "unit": "SF",
+      "unit_price": 0.79,
+      "amount": 93.39,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 523.59,
+      "unit": "SF",
+      "unit_price": 0.99,
+      "amount": 518.35,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 30.5,
+      "unit": "HR",
+      "unit_price": 51.34,
+      "amount": 1565.87,
+      "category": "Bathroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 50.67,
+      "unit": "LF",
+      "unit_price": 277.21,
+      "amount": 14046.23,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 37.36,
+      "unit": "SF",
+      "unit_price": 4.32,
+      "amount": 161.4,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 405.29,
+      "unit": "SF",
+      "unit_price": 4.33,
+      "amount": 1754.91,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 349.81,
+      "unit": "SF",
+      "unit_price": 3.24,
+      "amount": 1133.38,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 37.64,
+      "unit": "SF",
+      "unit_price": 0.64,
+      "amount": 24.09,
+      "category": "Living Room"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 74.78,
+      "amount": 373.9,
+      "category": "Living Room"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 51.05,
+      "unit": "LF",
+      "unit_price": 191.39,
+      "amount": 9770.46,
+      "category": "Living Room"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 585.55,
+      "unit": "SF",
+      "unit_price": 0.83,
+      "amount": 486.01,
+      "category": "Living Room"
+    }
+  ],
+  "scan": true
+}

@@ -1,0 +1,207 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Hannah Sloan",
+    "property_address": "148 Odonnell Knolls Apt. 888, Danaborough, FM 31878",
+    "date_of_loss": "2026-07-12",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "contractor_name": "Singh-Perez Restoration",
+    "contractor_license": "CRC189225",
+    "estimate_number": "EST-3180",
+    "estimate_date": "2026-07-25",
+    "subtotal": 17290.95,
+    "tax": 1426.5,
+    "overhead_and_profit": 3458.19,
+    "total": 22175.64
+  },
+  "line_items": [
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 415.49,
+      "unit": "SF",
+      "unit_price": 2.63,
+      "amount": 1092.74,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 140.23,
+      "amount": 420.69,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 36.1,
+      "unit": "HR",
+      "unit_price": 50.21,
+      "amount": 1812.58,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 87.69,
+      "amount": 526.14,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 503.19,
+      "unit": "SF",
+      "unit_price": 0.33,
+      "amount": 166.05,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 12.9,
+      "unit": "HR",
+      "unit_price": 59.18,
+      "amount": 763.42,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 27.73,
+      "amount": 110.92,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 612.13,
+      "unit": "SF",
+      "unit_price": 0.25,
+      "amount": 153.03,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 196.65,
+      "amount": 589.95,
+      "category": "Garage"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 17.83,
+      "unit": "SQ",
+      "unit_price": 277.52,
+      "amount": 4948.18,
+      "category": "Garage"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 397.81,
+      "unit": "SF",
+      "unit_price": 1.03,
+      "amount": 409.74,
+      "category": "Garage"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 27.86,
+      "unit": "SF",
+      "unit_price": 3.32,
+      "amount": 92.5,
+      "category": "Garage"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 456.08,
+      "unit": "SF",
+      "unit_price": 0.37,
+      "amount": 168.75,
+      "category": "Garage"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 216.36,
+      "unit": "SF",
+      "unit_price": 0.58,
+      "amount": 125.49,
+      "category": "Garage"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 202.44,
+      "unit": "SF",
+      "unit_price": 0.51,
+      "amount": 103.24,
+      "category": "Garage"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 386.33,
+      "unit": "SF",
+      "unit_price": 0.93,
+      "amount": 359.29,
+      "category": "Garage"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 103.54,
+      "unit": "SF",
+      "unit_price": 0.89,
+      "amount": 92.15,
+      "category": "Garage"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 463.1,
+      "unit": "SF",
+      "unit_price": 0.26,
+      "amount": 120.41,
+      "category": "Garage"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 163.29,
+      "amount": 163.29,
+      "category": "Garage"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 15.35,
+      "unit": "SQ",
+      "unit_price": 306.81,
+      "amount": 4709.53,
+      "category": "Garage"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 256.95,
+      "unit": "SF",
+      "unit_price": 0.64,
+      "amount": 164.45,
+      "category": "Garage"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 224.46,
+      "unit": "SF",
+      "unit_price": 0.7,
+      "amount": 157.12,
+      "category": "Garage"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 179.52,
+      "unit": "SF",
+      "unit_price": 0.23,
+      "amount": 41.29,
+      "category": "Garage"
+    }
+  ],
+  "scan": false
+}

@@ -1,0 +1,23 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Thomas Fuentes",
+    "property_address": "0431 Jake Views Apt. 158, South Carrie, WI 87631",
+    "date_of_loss": "2026-07-16",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - unattended cooking on range top",
+    "incident_number": "2026-22471",
+    "fire_department": "North Danastad Fire Department",
+    "alarm_time": "2026-07-16T13:41",
+    "arrival_time": "2026-07-16T13:51",
+    "area_of_origin": "Kitchen",
+    "cause_determination": "Accidental - unattended cooking on range top",
+    "injuries": 1,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the kitchen. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Civilian injuries were treated and transported by EMS. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "scan": true
+}

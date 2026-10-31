@@ -1,0 +1,197 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-2462391",
+    "policy_number": "HO873-298727",
+    "insured_name": "Sarah Jimenez",
+    "property_address": "6436 Nicole Lights, New Samantha, IL 18349",
+    "date_of_loss": "2026-04-19",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "contractor_name": "Crawford Inc Restoration",
+    "contractor_license": null,
+    "estimate_number": "EST-3470",
+    "estimate_date": "2026-04-22",
+    "subtotal": 29486.48,
+    "tax": 740.78,
+    "overhead_and_profit": 5749.18,
+    "total": 35426.76
+  },
+  "line_items": [
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 27.63,
+      "amount": 33.7,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 317.29,
+      "unit": "SF",
+      "unit_price": 0.39,
+      "amount": 151.75,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 33.4,
+      "unit": "HR",
+      "unit_price": 63.23,
+      "amount": 2599.59,
+      "category": "Hallway"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 35.28,
+      "amount": 258.22,
+      "category": "Hallway"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 28.44,
+      "unit": "SQ",
+      "unit_price": 260.3,
+      "amount": 9069.96,
+      "category": "Hallway"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 25.94,
+      "amount": 31.95,
+      "category": "Hallway"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 185.5,
+      "amount": 229.08,
+      "category": "Hallway"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 463.37,
+      "unit": "SF",
+      "unit_price": 0.93,
+      "amount": 529.97,
+      "category": "Hallway"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 30.3,
+      "unit": "HR",
+      "unit_price": 48.94,
+      "amount": 1831.91,
+      "category": "Hallway"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 72.6,
+      "amount": 267.33,
+      "category": "Hallway"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 133.33,
+      "unit": "SF",
+      "unit_price": 2.55,
+      "amount": 416.87,
+      "category": "Garage"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 434.71,
+      "unit": "SF",
+      "unit_price": 0.5,
+      "amount": 268.33,
+      "category": "Garage"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 69.39,
+      "amount": 425.32,
+      "category": "Garage"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 8.29,
+      "unit": "LF",
+      "unit_price": 218.01,
+      "amount": 2229.12,
+      "category": "Garage"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 5.71,
+      "unit": "SQ",
+      "unit_price": 279.9,
+      "amount": 1954.3,
+      "category": "Garage"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 12.05,
+      "unit": "LF",
+      "unit_price": 3.14,
+      "amount": 46.37,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 32.07,
+      "amount": 156.79,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 403.39,
+      "unit": "SF",
+      "unit_price": 1.05,
+      "amount": 520.58,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 173.54,
+      "amount": 636.1,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 150.12,
+      "amount": 367.07,
+      "category": "Kitchen"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 54.06,
+      "unit": "LF",
+      "unit_price": 199.86,
+      "amount": 13211.35,
+      "category": "Kitchen"
+    }
+  ],
+  "traps": [
+    "xactimate",
+    "math_error",
+    "conflicting_dates",
+    "stamp"
+  ],
+  "scan": true
+}

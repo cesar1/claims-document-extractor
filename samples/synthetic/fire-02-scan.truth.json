@@ -1,0 +1,23 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Whitney Huynh",
+    "property_address": "28704 Combs Isle Suite 210, West Christopherchester, DE 74049",
+    "date_of_loss": "2026-01-09",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - unattended cooking on range top",
+    "incident_number": "2026-15459",
+    "fire_department": "South Michael Fire Department",
+    "alarm_time": "2026-01-09T04:43",
+    "arrival_time": "2026-01-09T04:57",
+    "area_of_origin": "Kitchen",
+    "cause_determination": "Accidental - unattended cooking on range top",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the kitchen. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "scan": true
+}

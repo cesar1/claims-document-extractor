@@ -1,0 +1,49 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": null,
+    "policy_number": "HO590-538666",
+    "insured_name": "Kent Rowe",
+    "property_address": "3914 Hardy Square, Justinberg, IN 47398",
+    "date_of_loss": "2026-06-07",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - kitchen grease fire",
+    "vendor_name": "Barber, Richardson and Wilson",
+    "invoice_number": "INV-32607",
+    "invoice_date": "2026-07-03",
+    "subtotal": 4186.95,
+    "tax": 334.96,
+    "total": 4521.91,
+    "amount_due": 3165.34
+  },
+  "line_items": [
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 389.35,
+      "amount": 778.7,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 478.24,
+      "amount": 1912.96,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 498.43,
+      "amount": 1495.29,
+      "category": null
+    }
+  ],
+  "traps": [
+    "stamp"
+  ],
+  "scan": false
+}

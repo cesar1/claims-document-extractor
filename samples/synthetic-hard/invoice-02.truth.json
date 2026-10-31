@@ -1,0 +1,59 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-4306187",
+    "policy_number": "HO602-353551",
+    "insured_name": "Robert Wilson",
+    "property_address": "608 Zachary Locks, South Christopherburgh, CA 71111",
+    "date_of_loss": "2026-01-19",
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water Damage - burst supply line",
+    "vendor_name": "Gutierrez-Frye",
+    "invoice_number": "INV-81995",
+    "invoice_date": "2026-02-17",
+    "subtotal": 2453.08,
+    "tax": 196.25,
+    "total": 2649.33,
+    "amount_due": 1854.53
+  },
+  "line_items": [
+    {
+      "description": "Contents pack-out",
+      "quantity": 32.8,
+      "unit": "HR",
+      "unit_price": 60.36,
+      "amount": 1979.81,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 289.33,
+      "amount": 289.33,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 2,
+      "unit": "MO",
+      "unit_price": 184.98,
+      "amount": 369.96,
+      "category": null
+    },
+    {
+      "description": "Insurance adjustment",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": -186.02,
+      "amount": -186.02,
+      "category": null
+    }
+  ],
+  "traps": [
+    "credit_line",
+    "stamp",
+    "claim_in_text"
+  ],
+  "scan": false
+}

@@ -1,0 +1,60 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-6024499",
+    "policy_number": "HO367-662800",
+    "insured_name": "Lauren Walker",
+    "property_address": "3081 Thomas Viaduct Apt. 910, Bryantborough, AR 47253",
+    "date_of_loss": null,
+    "cause_of_loss": "wind",
+    "cause_of_loss_detail": "Wind - fallen tree",
+    "vendor_name": "Moore, Cox and Taylor",
+    "invoice_number": "INV-74093",
+    "invoice_date": "2026-04-17",
+    "subtotal": 5939.7,
+    "tax": 371.23,
+    "total": 6310.93,
+    "amount_due": 6310.93
+  },
+  "line_items": [
+    {
+      "description": "Labor - technician",
+      "quantity": 37.2,
+      "unit": "HR",
+      "unit_price": 63.4,
+      "amount": 2358.48,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 357.44,
+      "amount": 1072.32,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 268.29,
+      "amount": 536.58,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 493.08,
+      "amount": 1972.32,
+      "category": null
+    }
+  ],
+  "traps": [
+    "conflicting_dates",
+    "stamp",
+    "label_variants",
+    "claim_in_text"
+  ],
+  "scan": false
+}

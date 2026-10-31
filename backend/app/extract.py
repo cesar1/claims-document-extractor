@@ -43,19 +43,19 @@ class Extraction:
     message_id: str
 
 
-def _cost(usage) -> float:
+def cost_usd(usage, batch: bool = False) -> float:
     cache_read = usage.cache_read_input_tokens or 0
     cache_write = usage.cache_creation_input_tokens or 0
-    return (
+    full = (
         usage.input_tokens * PRICE_INPUT
         + cache_read * PRICE_CACHE_READ
         + cache_write * PRICE_CACHE_WRITE
         + usage.output_tokens * PRICE_OUTPUT
     ) / 1_000_000
+    return full * 0.5 if batch else full
 
 
-def build_request(pdf_bytes: bytes) -> dict:
-    """Request kwargs, shared by the live path and (later) the Batches eval path."""
+def _base_request(pdf_bytes: bytes) -> dict:
     return {
         "model": MODEL,
         "max_tokens": MAX_TOKENS,
@@ -76,9 +76,48 @@ def build_request(pdf_bytes: bytes) -> dict:
                 ],
             }
         ],
+    }
+
+
+def build_request(pdf_bytes: bytes) -> dict:
+    """Kwargs for the live streaming path (SDK parses into ExtractionResult)."""
+    return {
+        **_base_request(pdf_bytes),
         "output_config": {"effort": EFFORT},
         "output_format": ExtractionResult,
     }
+
+
+def build_batch_params(pdf_bytes: bytes) -> dict:
+    """Params for one Message Batches request. Batches reject `fallbacks` and take the raw
+    JSON schema rather than a Pydantic type."""
+    return {
+        **_base_request(pdf_bytes),
+        "output_config": {
+            "effort": EFFORT,
+            "format": {
+                "type": "json_schema",
+                "schema": anthropic.transform_schema(ExtractionResult),
+            },
+        },
+    }
+
+
+def check_message(message) -> None:
+    """Raise ExtractionError for responses that carry no usable extraction."""
+    if message.stop_reason == "refusal":
+        raise ExtractionError(f"Model declined the document: {message.stop_details}")
+    if message.stop_reason == "max_tokens":
+        raise ExtractionError("Output hit max_tokens before the extraction was complete")
+
+
+def parse_message_text(message) -> ExtractionResult:
+    """Parse a non-SDK-parsed response (e.g. a batch result) into ExtractionResult."""
+    check_message(message)
+    text = next((b.text for b in message.content if b.type == "text"), None)
+    if text is None:
+        raise ExtractionError(f"No text output (stop_reason={message.stop_reason})")
+    return ExtractionResult.model_validate_json(text)
 
 
 def extract_pdf(pdf_bytes: bytes, client: anthropic.Anthropic | None = None) -> Extraction:
@@ -90,10 +129,7 @@ def extract_pdf(pdf_bytes: bytes, client: anthropic.Anthropic | None = None) -> 
     ) as stream:
         message = stream.get_final_message()
 
-    if message.stop_reason == "refusal":
-        raise ExtractionError(f"Model declined the document: {message.stop_details}")
-    if message.stop_reason == "max_tokens":
-        raise ExtractionError("Output hit max_tokens before the extraction was complete")
+    check_message(message)
     if message.parsed_output is None:
         raise ExtractionError(f"No structured output (stop_reason={message.stop_reason})")
 
@@ -101,7 +137,7 @@ def extract_pdf(pdf_bytes: bytes, client: anthropic.Anthropic | None = None) -> 
         result=message.parsed_output,
         input_tokens=message.usage.input_tokens,
         output_tokens=message.usage.output_tokens,
-        cost_usd=_cost(message.usage),
+        cost_usd=cost_usd(message.usage),
         message_id=message.id,
     )
 

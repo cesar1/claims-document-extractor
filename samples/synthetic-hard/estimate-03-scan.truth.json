@@ -1,0 +1,115 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-3769526",
+    "policy_number": "HO911-116166",
+    "insured_name": "Larry Smith",
+    "property_address": "23100 Robles Fall Apt. 783, South Dawn, DE 52255",
+    "date_of_loss": "2026-02-19",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "contractor_name": "Branch-Smith Restoration",
+    "contractor_license": "CRC697356",
+    "estimate_number": "EST-9262",
+    "estimate_date": "2026-03-11",
+    "subtotal": 2839.37,
+    "tax": 73.04,
+    "overhead_and_profit": 553.27,
+    "total": 3392.64
+  },
+  "line_items": [
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 92.3,
+      "unit": "SF",
+      "unit_price": 0.53,
+      "amount": 60.2,
+      "category": "Garage"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 30.22,
+      "amount": 149.16,
+      "category": "Garage"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 503.38,
+      "unit": "SF",
+      "unit_price": 0.87,
+      "amount": 534.37,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 475.26,
+      "unit": "SF",
+      "unit_price": 0.58,
+      "amount": 339.04,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 315.37,
+      "unit": "SF",
+      "unit_price": 0.22,
+      "amount": 85.55,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 34.79,
+      "unit": "LF",
+      "unit_price": 3.06,
+      "amount": 129.84,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 428.25,
+      "unit": "SF",
+      "unit_price": 0.55,
+      "amount": 291.17,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 248.1,
+      "amount": 606.23,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 166.23,
+      "unit": "SF",
+      "unit_price": 3.03,
+      "amount": 618.32,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 232.82,
+      "unit": "SF",
+      "unit_price": 0.34,
+      "amount": 96.73,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 461.79,
+      "unit": "SF",
+      "unit_price": 0.85,
+      "amount": 482.03,
+      "category": "Bathroom"
+    }
+  ],
+  "traps": [
+    "xactimate",
+    "conflicting_dates"
+  ],
+  "scan": true
+}

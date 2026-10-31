@@ -1,0 +1,54 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-7786124",
+    "policy_number": "HO300-969466",
+    "insured_name": "Matthew Collier",
+    "property_address": "5020 Colleen Glens, Martinland, TN 50423",
+    "date_of_loss": "2026-06-13",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - kitchen grease fire",
+    "vendor_name": "Lambert, Campbell and Allen",
+    "invoice_number": "INV-62395",
+    "invoice_date": "2026-06-30",
+    "subtotal": 3469.22,
+    "tax": 277.54,
+    "total": 3746.76,
+    "amount_due": 3746.76
+  },
+  "line_items": [
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 443.38,
+      "amount": 1330.14,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 3,
+      "unit": "MO",
+      "unit_price": 244.33,
+      "amount": 732.99,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 1,
+      "unit": "MO",
+      "unit_price": 250.13,
+      "amount": 250.13,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 385.32,
+      "amount": 1155.96,
+      "category": null
+    }
+  ],
+  "scan": false
+}

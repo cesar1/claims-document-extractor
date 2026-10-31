@@ -1,0 +1,156 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-5756818",
+    "policy_number": "HO865-410420",
+    "insured_name": "Christopher Aguilar",
+    "property_address": "95597 Susan Orchard, Port Paul, SC 20703",
+    "date_of_loss": "2026-05-04",
+    "cause_of_loss": "smoke",
+    "cause_of_loss_detail": "Smoke damage from neighboring unit fire",
+    "contractor_name": "Kerr-Meyers Restoration",
+    "contractor_license": "CRC763740",
+    "estimate_number": "EST-7389",
+    "estimate_date": "2026-05-07",
+    "subtotal": 23951.6,
+    "tax": 1736.49,
+    "overhead_and_profit": 4790.32,
+    "total": 30535.01
+  },
+  "line_items": [
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 208.12,
+      "amount": 624.36,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 8.04,
+      "unit": "SQ",
+      "unit_price": 326.6,
+      "amount": 2625.86,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 51.75,
+      "unit": "SF",
+      "unit_price": 0.3,
+      "amount": 15.52,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 562.51,
+      "unit": "SF",
+      "unit_price": 0.69,
+      "amount": 388.13,
+      "category": "Bathroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 25.66,
+      "unit": "LF",
+      "unit_price": 263.11,
+      "amount": 6751.4,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 482.6,
+      "unit": "SF",
+      "unit_price": 0.26,
+      "amount": 125.48,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 418.85,
+      "unit": "SF",
+      "unit_price": 0.85,
+      "amount": 356.02,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 94.39,
+      "amount": 471.95,
+      "category": "Bathroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 7.45,
+      "unit": "LF",
+      "unit_price": 188.99,
+      "amount": 1407.98,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 248.88,
+      "unit": "SF",
+      "unit_price": 0.23,
+      "amount": 57.24,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 415.9,
+      "unit": "SF",
+      "unit_price": 1.86,
+      "amount": 773.57,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 522.48,
+      "unit": "SF",
+      "unit_price": 0.97,
+      "amount": 506.81,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 349.72,
+      "unit": "SF",
+      "unit_price": 3.02,
+      "amount": 1056.15,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 20.83,
+      "unit": "SQ",
+      "unit_price": 299.37,
+      "amount": 6235.88,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 35.9,
+      "unit": "HR",
+      "unit_price": 66.82,
+      "amount": 2398.84,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 193.1,
+      "unit": "SF",
+      "unit_price": 0.81,
+      "amount": 156.41,
+      "category": "Kitchen"
+    }
+  ],
+  "traps": [
+    "math_error",
+    "conflicting_dates",
+    "label_variants"
+  ],
+  "scan": true
+}

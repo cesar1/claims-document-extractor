@@ -1,0 +1,109 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-6744958",
+    "policy_number": null,
+    "insured_name": "Rachel Hooper",
+    "property_address": "540 Wagner Camp Suite 586, Tonytown, IL 08897",
+    "date_of_loss": "2026-01-15",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Structure fire",
+    "vendor_name": "Marsh-Thompson",
+    "invoice_number": "INV-24960",
+    "invoice_date": "2026-01-19",
+    "subtotal": 13207.55,
+    "tax": 825.47,
+    "total": 14033.02,
+    "amount_due": 9823.11
+  },
+  "line_items": [
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 499.68,
+      "amount": 1998.72,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 491.34,
+      "amount": 982.68,
+      "category": null
+    },
+    {
+      "description": "Labor - technician",
+      "quantity": 23.8,
+      "unit": "HR",
+      "unit_price": 78.03,
+      "amount": 1857.11,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 484.04,
+      "amount": 1936.16,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 629.48,
+      "amount": 629.48,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 22.4,
+      "unit": "HR",
+      "unit_price": 64.84,
+      "amount": 1452.42,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 225.19,
+      "amount": 675.57,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 321.02,
+      "amount": 1284.08,
+      "category": null
+    },
+    {
+      "description": "Contents pack-out",
+      "quantity": 30.6,
+      "unit": "HR",
+      "unit_price": 81.92,
+      "amount": 2506.75,
+      "category": null
+    },
+    {
+      "description": "Insurance adjustment",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": -115.42,
+      "amount": -115.42,
+      "category": null
+    }
+  ],
+  "traps": [
+    "credit_line",
+    "conflicting_dates",
+    "stamp",
+    "label_variants",
+    "claim_in_text"
+  ],
+  "scan": false
+}

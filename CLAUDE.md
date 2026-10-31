@@ -9,6 +9,12 @@ in `frontend/` (not built yet).
 - Lint/format: `.venv/Scripts/python -m ruff check . && .venv/Scripts/python -m ruff format .`
 - Extract (live, costs money): `.venv/Scripts/python -m app.extract ../samples/real/<file>.pdf`
 
+## Eval (run from repo root; needs `pip install -e "backend[dev,eval]"`)
+- Regenerate synthetic docs + truth: `backend/.venv/Scripts/python scripts/gen_synthetic.py [--profile hard]` (easy -> samples/synthetic, hard -> samples/synthetic-hard; the easy profile must stay byte-reproducible, so hard-only randomness goes behind `g.trap()`/`g.hard`)
+- Cost estimate only: `backend/.venv/Scripts/python scripts/eval.py run samples/synthetic`
+- Spend (Batches, 50% off): add `--yes`. Results go to `data/eval/<run>/report.md`
+- Re-score saved predictions for free: `backend/.venv/Scripts/python scripts/eval.py score data/eval/<run>`
+
 ## Rules
 - **API budget is ~$5–15 total.** Never run live extraction, the eval, or anything that calls Claude
   without asking first; say the expected cost (~$0.10/doc). Tests must mock the client.

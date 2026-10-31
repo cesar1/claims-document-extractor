@@ -1,0 +1,23 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Stacey Solis",
+    "property_address": "840 Patricia Well Suite 573, Obrienburgh, MT 21067",
+    "date_of_loss": "2026-05-17",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - candle too close to combustibles",
+    "incident_number": "2026-73047",
+    "fire_department": "Duanehaven Fire Department",
+    "alarm_time": "2026-05-17T15:27",
+    "arrival_time": "2026-05-17T15:41",
+    "area_of_origin": "Living Room",
+    "cause_determination": "Accidental - candle too close to combustibles",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the living room. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "scan": false
+}

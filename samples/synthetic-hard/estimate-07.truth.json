@@ -1,0 +1,421 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-3552351",
+    "policy_number": null,
+    "insured_name": "Chelsea Miller",
+    "property_address": "6569 Alexander Villages, New Karentown, ME 79312",
+    "date_of_loss": null,
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "contractor_name": "Castillo and Sons Restoration",
+    "contractor_license": "CRC682571",
+    "estimate_number": "EST-5201",
+    "estimate_date": "2026-08-27",
+    "subtotal": 52989.1,
+    "tax": 1684.67,
+    "overhead_and_profit": 10260.87,
+    "total": 63249.97
+  },
+  "line_items": [
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 27.15,
+      "unit": "SQ",
+      "unit_price": 252.84,
+      "amount": 8515.09,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 102.81,
+      "unit": "SF",
+      "unit_price": 0.36,
+      "amount": 45.77,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 83.27,
+      "unit": "SF",
+      "unit_price": 0.87,
+      "amount": 88.6,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 7.3,
+      "unit": "HR",
+      "unit_price": 52.93,
+      "amount": 474.73,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 94.57,
+      "amount": 703.84,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 539.87,
+      "unit": "SF",
+      "unit_price": 0.33,
+      "amount": 221.15,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 36.74,
+      "amount": 224.5,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 405.57,
+      "unit": "SF",
+      "unit_price": 0.78,
+      "amount": 390.86,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 39.9,
+      "unit": "HR",
+      "unit_price": 64.96,
+      "amount": 3206.0,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 415.08,
+      "unit": "SF",
+      "unit_price": 0.6,
+      "amount": 307.31,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 28.72,
+      "unit": "SQ",
+      "unit_price": 283.44,
+      "amount": 10039.92,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 81.3,
+      "amount": 498.73,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 171.74,
+      "unit": "SF",
+      "unit_price": 0.8,
+      "amount": 170.7,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 274.14,
+      "unit": "SF",
+      "unit_price": 2.83,
+      "amount": 964.33,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 119.89,
+      "unit": "SF",
+      "unit_price": 0.76,
+      "amount": 112.61,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 24.16,
+      "unit": "LF",
+      "unit_price": 2.62,
+      "amount": 77.76,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 53.69,
+      "unit": "SF",
+      "unit_price": 0.5,
+      "amount": 33.27,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 21.8,
+      "unit": "HR",
+      "unit_price": 58.09,
+      "amount": 1573.65,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 173.94,
+      "unit": "SF",
+      "unit_price": 1.31,
+      "amount": 279.74,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 589.15,
+      "unit": "SF",
+      "unit_price": 0.22,
+      "amount": 159.53,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 206.55,
+      "unit": "SF",
+      "unit_price": 1.0,
+      "amount": 256.3,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 17.1,
+      "unit": "HR",
+      "unit_price": 56.56,
+      "amount": 1188.7,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 31.11,
+      "amount": 193.28,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 16.43,
+      "unit": "LF",
+      "unit_price": 2.46,
+      "amount": 50.06,
+      "category": "Bathroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 27.97,
+      "unit": "LF",
+      "unit_price": 192.63,
+      "amount": 6631.27,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 183.11,
+      "amount": 897.56,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 477.97,
+      "unit": "SF",
+      "unit_price": 0.91,
+      "amount": 539.55,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 3,
+      "unit": "DA",
+      "unit_price": 27.45,
+      "amount": 100.83,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 6.98,
+      "unit": "SQ",
+      "unit_price": 277.1,
+      "amount": 2392.13,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 174.1,
+      "unit": "SF",
+      "unit_price": 4.3,
+      "amount": 919.02,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 77.81,
+      "unit": "SF",
+      "unit_price": 0.52,
+      "amount": 50.06,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 2,
+      "unit": "DA",
+      "unit_price": 36.82,
+      "amount": 90.77,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 97.27,
+      "unit": "SF",
+      "unit_price": 4.77,
+      "amount": 569.85,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 38.27,
+      "unit": "LF",
+      "unit_price": 3.78,
+      "amount": 177.6,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 496.35,
+      "unit": "SF",
+      "unit_price": 0.37,
+      "amount": 227.58,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 352.55,
+      "unit": "SF",
+      "unit_price": 3.42,
+      "amount": 1486.84,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 214.01,
+      "amount": 1048.02,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 279.2,
+      "unit": "SF",
+      "unit_price": 0.82,
+      "amount": 282.28,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 326.05,
+      "unit": "SF",
+      "unit_price": 0.4,
+      "amount": 162.11,
+      "category": "Bathroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 12.34,
+      "unit": "LF",
+      "unit_price": 197.04,
+      "amount": 3018.0,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 591.57,
+      "unit": "SF",
+      "unit_price": 0.37,
+      "amount": 268.28,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 231.47,
+      "amount": 851.81,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 35.2,
+      "unit": "HR",
+      "unit_price": 71.34,
+      "amount": 3075.26,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 351.52,
+      "unit": "SF",
+      "unit_price": 0.26,
+      "amount": 113.0,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 246.17,
+      "amount": 606.47,
+      "category": "Bathroom"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 36.45,
+      "unit": "LF",
+      "unit_price": 202.23,
+      "amount": 9018.09,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 575.77,
+      "unit": "SF",
+      "unit_price": 0.34,
+      "amount": 243.07,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 128.37,
+      "unit": "SF",
+      "unit_price": 0.41,
+      "amount": 64.39,
+      "category": "Bathroom"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 212.92,
+      "unit": "SF",
+      "unit_price": 2.42,
+      "amount": 639.7,
+      "category": "Bathroom"
+    }
+  ],
+  "traps": [
+    "long_table",
+    "xactimate",
+    "label_variants",
+    "claim_in_text"
+  ],
+  "scan": false
+}

@@ -1,0 +1,28 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Crystal White",
+    "property_address": "0791 Jeremy Estate, South Richardland, MA 56470",
+    "date_of_loss": "2026-04-27",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - space heater too close to bedding",
+    "incident_number": "2026-34225",
+    "fire_department": "Lake Jamie Fire Department",
+    "alarm_time": "2026-04-27T08:07",
+    "arrival_time": "2026-04-27T08:21",
+    "area_of_origin": "Bedroom",
+    "cause_determination": "Accidental - space heater too close to bedding",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the bedroom. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "traps": [
+    "time_distractors",
+    "conflicting_dates",
+    "label_variants"
+  ],
+  "scan": true
+}

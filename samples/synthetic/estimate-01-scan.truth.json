@@ -1,0 +1,207 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-7624039",
+    "policy_number": "HO174-961168",
+    "insured_name": "Mario Hernandez",
+    "property_address": "81590 Benjamin Mews, Jonesland, OH 56143",
+    "date_of_loss": "2026-03-24",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Fire - kitchen grease fire",
+    "contractor_name": "Serrano Inc Restoration",
+    "contractor_license": "CRC632084",
+    "estimate_number": "EST-2408",
+    "estimate_date": "2026-04-08",
+    "subtotal": 26519.23,
+    "tax": 1657.45,
+    "overhead_and_profit": null,
+    "total": 28176.68
+  },
+  "line_items": [
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 9.19,
+      "unit": "LF",
+      "unit_price": 244.37,
+      "amount": 2245.76,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 383.57,
+      "unit": "SF",
+      "unit_price": 2.35,
+      "amount": 901.39,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 11.57,
+      "unit": "LF",
+      "unit_price": 3.37,
+      "amount": 38.99,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 370.7,
+      "unit": "SF",
+      "unit_price": 2.02,
+      "amount": 748.81,
+      "category": "Living Room"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 47.97,
+      "unit": "LF",
+      "unit_price": 233.89,
+      "amount": 11219.7,
+      "category": "Living Room"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 191.06,
+      "amount": 573.18,
+      "category": "Living Room"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 94.38,
+      "unit": "SF",
+      "unit_price": 1.08,
+      "amount": 101.93,
+      "category": "Living Room"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 501.68,
+      "unit": "SF",
+      "unit_price": 1.17,
+      "amount": 586.97,
+      "category": "Living Room"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 5.93,
+      "unit": "SQ",
+      "unit_price": 252.96,
+      "amount": 1500.05,
+      "category": "Living Room"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 427.69,
+      "unit": "SF",
+      "unit_price": 0.4,
+      "amount": 171.08,
+      "category": "Living Room"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 471.48,
+      "unit": "SF",
+      "unit_price": 0.38,
+      "amount": 179.16,
+      "category": "Living Room"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 331.03,
+      "unit": "SF",
+      "unit_price": 0.25,
+      "amount": 82.76,
+      "category": "Living Room"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 485.17,
+      "unit": "SF",
+      "unit_price": 3.96,
+      "amount": 1921.27,
+      "category": "Living Room"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 124.81,
+      "unit": "SF",
+      "unit_price": 1.07,
+      "amount": 133.55,
+      "category": "Living Room"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 360.63,
+      "unit": "SF",
+      "unit_price": 4.28,
+      "amount": 1543.5,
+      "category": "Garage"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 81.38,
+      "unit": "SF",
+      "unit_price": 0.85,
+      "amount": 69.17,
+      "category": "Garage"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 409.98,
+      "unit": "SF",
+      "unit_price": 2.47,
+      "amount": 1012.65,
+      "category": "Garage"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 208.85,
+      "unit": "SF",
+      "unit_price": 0.88,
+      "amount": 183.79,
+      "category": "Garage"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 82.23,
+      "amount": 82.23,
+      "category": "Garage"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 607.96,
+      "unit": "SF",
+      "unit_price": 4.0,
+      "amount": 2431.84,
+      "category": "Garage"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 458.04,
+      "unit": "SF",
+      "unit_price": 0.45,
+      "amount": 206.12,
+      "category": "Garage"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 144.25,
+      "amount": 144.25,
+      "category": "Garage"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 612.61,
+      "unit": "SF",
+      "unit_price": 0.72,
+      "amount": 441.08,
+      "category": "Garage"
+    }
+  ],
+  "scan": true
+}

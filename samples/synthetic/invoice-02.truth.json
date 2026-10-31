@@ -1,0 +1,54 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-2493694",
+    "policy_number": "HO479-873061",
+    "insured_name": "Joseph Martinez",
+    "property_address": "8649 Bradley Station, North Tanya, KS 07104",
+    "date_of_loss": "2026-02-06",
+    "cause_of_loss": "wind",
+    "cause_of_loss_detail": "Wind - fallen tree",
+    "vendor_name": "Harris LLC",
+    "invoice_number": "INV-31209",
+    "invoice_date": "2026-02-23",
+    "subtotal": 3275.09,
+    "tax": 262.01,
+    "total": 3537.1,
+    "amount_due": 3537.1
+  },
+  "line_items": [
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 534.31,
+      "amount": 534.31,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 2,
+      "unit": "MO",
+      "unit_price": 185.77,
+      "amount": 371.54,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 444.36,
+      "amount": 1777.44,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 591.8,
+      "amount": 591.8,
+      "category": null
+    }
+  ],
+  "scan": false
+}

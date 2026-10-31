@@ -1,0 +1,70 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-3592955",
+    "policy_number": "HO193-784781",
+    "insured_name": "Evan Reynolds",
+    "property_address": "6355 Jennifer Brook Suite 877, South Martinport, NY 08927",
+    "date_of_loss": "2026-06-19",
+    "cause_of_loss": "hail",
+    "cause_of_loss_detail": "Hail damage to roof and gutters",
+    "vendor_name": "Galloway and Sons",
+    "invoice_number": "INV-47132",
+    "invoice_date": "2026-07-11",
+    "subtotal": 6354.35,
+    "tax": 397.15,
+    "total": 6751.5,
+    "amount_due": 6751.5
+  },
+  "line_items": [
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 479.35,
+      "amount": 479.35,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 212.47,
+      "amount": 849.88,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 208.61,
+      "amount": 417.22,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 598.98,
+      "amount": 1197.96,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 500.51,
+      "amount": 1001.02,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 602.23,
+      "amount": 2408.92,
+      "category": null
+    }
+  ],
+  "scan": true
+}

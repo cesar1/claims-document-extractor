@@ -1,0 +1,71 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Kimberly Hernandez",
+    "property_address": "9180 Fleming Pines, Muellerville, OH 07948",
+    "date_of_loss": "2026-07-26",
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water - dishwasher leak",
+    "contractor_name": "Lee Inc Restoration",
+    "contractor_license": "CRC928164",
+    "estimate_number": "EST-8044",
+    "estimate_date": "2026-08-12",
+    "subtotal": 3209.34,
+    "tax": 232.68,
+    "overhead_and_profit": 641.87,
+    "total": 4083.89
+  },
+  "line_items": [
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 538.34,
+      "unit": "SF",
+      "unit_price": 0.36,
+      "amount": 193.8,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 562.58,
+      "unit": "SF",
+      "unit_price": 0.42,
+      "amount": 236.28,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 9.5,
+      "unit": "HR",
+      "unit_price": 66.07,
+      "amount": 627.66,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 58.93,
+      "unit": "LF",
+      "unit_price": 3.9,
+      "amount": 229.83,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 26.09,
+      "amount": 130.45,
+      "category": "Bedroom 2"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 9.5,
+      "unit": "LF",
+      "unit_price": 188.56,
+      "amount": 1791.32,
+      "category": "Living Room"
+    }
+  ],
+  "scan": false
+}

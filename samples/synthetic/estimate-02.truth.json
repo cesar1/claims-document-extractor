@@ -1,0 +1,215 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-2392252",
+    "policy_number": "HO337-790504",
+    "insured_name": "Amber Duncan",
+    "property_address": "99351 Anne River, South Erin, NE 41676",
+    "date_of_loss": "2026-03-01",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Structure fire",
+    "contractor_name": "Richards-Chavez Restoration",
+    "contractor_license": "CRC291200",
+    "estimate_number": "EST-1067",
+    "estimate_date": "2026-03-07",
+    "subtotal": 8054.33,
+    "tax": 503.4,
+    "overhead_and_profit": 1610.87,
+    "total": 10168.6
+  },
+  "line_items": [
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 190.88,
+      "amount": 763.52,
+      "category": "Hallway"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 144.36,
+      "amount": 577.44,
+      "category": "Hallway"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 617.84,
+      "unit": "SF",
+      "unit_price": 0.35,
+      "amount": 216.24,
+      "category": "Hallway"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 399.44,
+      "unit": "SF",
+      "unit_price": 0.77,
+      "amount": 307.57,
+      "category": "Hallway"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 35.78,
+      "amount": 143.12,
+      "category": "Hallway"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 112.36,
+      "unit": "SF",
+      "unit_price": 0.79,
+      "amount": 88.76,
+      "category": "Hallway"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 13.3,
+      "unit": "HR",
+      "unit_price": 63.43,
+      "amount": 843.62,
+      "category": "Hallway"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 29.77,
+      "amount": 148.85,
+      "category": "Hallway"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 420.96,
+      "unit": "SF",
+      "unit_price": 0.45,
+      "amount": 189.43,
+      "category": "Hallway"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 87.2,
+      "amount": 348.8,
+      "category": "Hallway"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 346.11,
+      "unit": "SF",
+      "unit_price": 0.69,
+      "amount": 238.82,
+      "category": "Hallway"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 517.77,
+      "unit": "SF",
+      "unit_price": 0.8,
+      "amount": 414.22,
+      "category": "Hallway"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 406.86,
+      "unit": "SF",
+      "unit_price": 0.61,
+      "amount": 248.18,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 173.63,
+      "amount": 694.52,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 301.75,
+      "unit": "SF",
+      "unit_price": 0.93,
+      "amount": 280.63,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 70.74,
+      "unit": "SF",
+      "unit_price": 0.64,
+      "amount": 45.27,
+      "category": "Master Bedroom"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 620.45,
+      "unit": "SF",
+      "unit_price": 0.47,
+      "amount": 291.61,
+      "category": "Garage"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 307.69,
+      "unit": "SF",
+      "unit_price": 2.94,
+      "amount": 904.61,
+      "category": "Garage"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 297.59,
+      "unit": "SF",
+      "unit_price": 0.59,
+      "amount": 175.58,
+      "category": "Garage"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 84.5,
+      "unit": "SF",
+      "unit_price": 2.56,
+      "amount": 216.32,
+      "category": "Garage"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 110.79,
+      "unit": "SF",
+      "unit_price": 1.26,
+      "amount": 139.6,
+      "category": "Garage"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 2.9,
+      "unit": "HR",
+      "unit_price": 70.82,
+      "amount": 205.38,
+      "category": "Garage"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 506.32,
+      "unit": "SF",
+      "unit_price": 0.79,
+      "amount": 399.99,
+      "category": "Garage"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 232.77,
+      "unit": "SF",
+      "unit_price": 0.74,
+      "amount": 172.25,
+      "category": "Garage"
+    }
+  ],
+  "scan": false
+}

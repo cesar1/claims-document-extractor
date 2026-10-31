@@ -1,0 +1,26 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Martha Oneal",
+    "property_address": "501 Mclean Drive, Lake Francis, SC 49721",
+    "date_of_loss": "2026-01-17",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - candle too close to combustibles",
+    "incident_number": "2026-91257",
+    "fire_department": "West James Fire Department",
+    "alarm_time": "2026-01-17T03:29",
+    "arrival_time": "2026-01-17T03:43",
+    "area_of_origin": "Living Room",
+    "cause_determination": "Accidental - candle too close to combustibles",
+    "injuries": 2,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the living room. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Civilian injuries were treated and transported by EMS. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "traps": [
+    "conflicting_dates"
+  ],
+  "scan": true
+}

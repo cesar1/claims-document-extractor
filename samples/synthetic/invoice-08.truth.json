@@ -1,0 +1,94 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-9775973",
+    "policy_number": "HO329-533311",
+    "insured_name": "Wendy Cole",
+    "property_address": "331 Matthew Course, Johnview, FM 75161",
+    "date_of_loss": "2026-03-19",
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water Damage - burst supply line",
+    "vendor_name": "Clay Ltd",
+    "invoice_number": "INV-58003",
+    "invoice_date": "2026-04-08",
+    "subtotal": 10160.47,
+    "tax": 0.0,
+    "total": 10160.47,
+    "amount_due": 7112.33
+  },
+  "line_items": [
+    {
+      "description": "Contents pack-out",
+      "quantity": 7.1,
+      "unit": "HR",
+      "unit_price": 83.1,
+      "amount": 590.01,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 3,
+      "unit": "MO",
+      "unit_price": 187.69,
+      "amount": 563.07,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 1,
+      "unit": "DA",
+      "unit_price": 623.37,
+      "amount": 623.37,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 374.78,
+      "amount": 1499.12,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 543.48,
+      "amount": 543.48,
+      "category": null
+    },
+    {
+      "description": "Labor - technician",
+      "quantity": 35.9,
+      "unit": "HR",
+      "unit_price": 80.82,
+      "amount": 2901.44,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 362.18,
+      "amount": 1448.72,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 368.46,
+      "amount": 368.46,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 405.7,
+      "amount": 1622.8,
+      "category": null
+    }
+  ],
+  "scan": false
+}

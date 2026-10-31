@@ -1,0 +1,199 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-2036081",
+    "policy_number": "HO630-656506",
+    "insured_name": "Christopher Cole",
+    "property_address": "68465 Rosario Drive Apt. 223, North Todd, OR 24401",
+    "date_of_loss": "2026-07-05",
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water Damage - burst supply line",
+    "contractor_name": "Campbell-Thomas Restoration",
+    "contractor_license": "CRC687513",
+    "estimate_number": "EST-4134",
+    "estimate_date": "2026-07-15",
+    "subtotal": 35964.14,
+    "tax": 2247.76,
+    "overhead_and_profit": 7192.83,
+    "total": 45404.73
+  },
+  "line_items": [
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 19.73,
+      "unit": "SQ",
+      "unit_price": 309.6,
+      "amount": 6108.41,
+      "category": "Garage"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 13.12,
+      "unit": "SQ",
+      "unit_price": 327.74,
+      "amount": 4299.95,
+      "category": "Garage"
+    },
+    {
+      "description": "Water extraction from carpeted floor",
+      "quantity": 549.2,
+      "unit": "SF",
+      "unit_price": 0.6,
+      "amount": 329.52,
+      "category": "Garage"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 181.34,
+      "amount": 725.36,
+      "category": "Garage"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 9.95,
+      "unit": "LF",
+      "unit_price": 255.29,
+      "amount": 2540.14,
+      "category": "Garage"
+    },
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 209.29,
+      "amount": 418.58,
+      "category": "Garage"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 285.4,
+      "unit": "SF",
+      "unit_price": 0.39,
+      "amount": 111.31,
+      "category": "Garage"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 38.5,
+      "unit": "HR",
+      "unit_price": 50.71,
+      "amount": 1952.34,
+      "category": "Garage"
+    },
+    {
+      "description": "Remove carpet pad",
+      "quantity": 72.96,
+      "unit": "SF",
+      "unit_price": 0.27,
+      "amount": 19.7,
+      "category": "Garage"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 76.36,
+      "unit": "SF",
+      "unit_price": 0.31,
+      "amount": 23.67,
+      "category": "Garage"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 54.35,
+      "unit": "LF",
+      "unit_price": 213.24,
+      "amount": 11589.59,
+      "category": "Garage"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 525.03,
+      "unit": "SF",
+      "unit_price": 0.9,
+      "amount": 472.53,
+      "category": "Garage"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 31.61,
+      "amount": 126.44,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Labor - general laborer",
+      "quantity": 37.8,
+      "unit": "HR",
+      "unit_price": 64.78,
+      "amount": 2448.68,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 611.89,
+      "unit": "SF",
+      "unit_price": 4.42,
+      "amount": 2704.55,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 179.46,
+      "unit": "SF",
+      "unit_price": 3.46,
+      "amount": 620.93,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Dehumidifier (per 24 hour period)",
+      "quantity": 6,
+      "unit": "DA",
+      "unit_price": 93.58,
+      "amount": 561.48,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 44.14,
+      "unit": "LF",
+      "unit_price": 4.09,
+      "amount": 180.53,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 32.27,
+      "unit": "SF",
+      "unit_price": 0.79,
+      "amount": 25.49,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 262.14,
+      "unit": "SF",
+      "unit_price": 0.84,
+      "amount": 220.2,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 2,
+      "unit": "DA",
+      "unit_price": 35.66,
+      "amount": 71.32,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 206.71,
+      "amount": 413.42,
+      "category": "Kitchen"
+    }
+  ],
+  "scan": true
+}

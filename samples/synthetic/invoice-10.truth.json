@@ -1,0 +1,62 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-5462533",
+    "policy_number": null,
+    "insured_name": "Joshua Stewart",
+    "property_address": "8383 Susan Squares, Brianborough, NM 88904",
+    "date_of_loss": null,
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water - dishwasher leak",
+    "vendor_name": "Fisher, Scott and Contreras",
+    "invoice_number": "INV-48747",
+    "invoice_date": "2026-03-30",
+    "subtotal": 4006.97,
+    "tax": 320.56,
+    "total": 4327.53,
+    "amount_due": 4327.53
+  },
+  "line_items": [
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 405.33,
+      "amount": 2026.65,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 382.01,
+      "amount": 764.02,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 1,
+      "unit": "MO",
+      "unit_price": 238.42,
+      "amount": 238.42,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 282.02,
+      "amount": 564.04,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 206.92,
+      "amount": 413.84,
+      "category": null
+    }
+  ],
+  "scan": false
+}

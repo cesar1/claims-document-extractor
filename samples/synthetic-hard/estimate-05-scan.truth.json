@@ -1,0 +1,220 @@
+{
+  "doc_type": "contractor_estimate",
+  "fields": {
+    "claim_number": "CLM-6459148",
+    "policy_number": null,
+    "insured_name": "Daniel Hunt",
+    "property_address": "64697 Meyer Stravenue Apt. 237, West Jasonborough, WA 02673",
+    "date_of_loss": "2026-04-05",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Structure fire",
+    "contractor_name": "Adams Group Restoration",
+    "contractor_license": "CRC487197",
+    "estimate_number": "EST-8569",
+    "estimate_date": "2026-04-17",
+    "subtotal": 36108.96,
+    "tax": 1151.1,
+    "overhead_and_profit": 6991.57,
+    "total": 43100.53
+  },
+  "line_items": [
+    {
+      "description": "Haul debris - per pickup truck load",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 160.92,
+      "amount": 790.18,
+      "category": "Hallway"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 215.39,
+      "unit": "SF",
+      "unit_price": 1.35,
+      "amount": 360.8,
+      "category": "Hallway"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 12.89,
+      "unit": "SQ",
+      "unit_price": 278.97,
+      "amount": 4473.16,
+      "category": "Hallway"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 241.18,
+      "amount": 592.91,
+      "category": "Hallway"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 159.38,
+      "unit": "SF",
+      "unit_price": 0.49,
+      "amount": 95.77,
+      "category": "Hallway"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 386.63,
+      "unit": "SF",
+      "unit_price": 1.02,
+      "amount": 487.47,
+      "category": "Hallway"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 36.35,
+      "unit": "SF",
+      "unit_price": 1.21,
+      "amount": 54.5,
+      "category": "Hallway"
+    },
+    {
+      "description": "Carpet - mid grade",
+      "quantity": 331.01,
+      "unit": "SF",
+      "unit_price": 4.22,
+      "amount": 1742.24,
+      "category": "Hallway"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 350.03,
+      "unit": "SF",
+      "unit_price": 0.98,
+      "amount": 420.44,
+      "category": "Hallway"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 55.87,
+      "unit": "LF",
+      "unit_price": 281.13,
+      "amount": 19279.07,
+      "category": "Hallway"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 59.51,
+      "unit": "LF",
+      "unit_price": 3.04,
+      "amount": 222.39,
+      "category": "Hallway"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 331.7,
+      "unit": "SF",
+      "unit_price": 0.36,
+      "amount": 146.89,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 575.48,
+      "unit": "SF",
+      "unit_price": 0.26,
+      "amount": 184.11,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Clean ceiling - heavy smoke",
+      "quantity": 590.95,
+      "unit": "SF",
+      "unit_price": 0.71,
+      "amount": 521.31,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Air mover (per 24 hour period)",
+      "quantity": 4,
+      "unit": "DA",
+      "unit_price": 31.89,
+      "amount": 158.1,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Seal/prime then paint walls (2 coats)",
+      "quantity": 247.87,
+      "unit": "SF",
+      "unit_price": 1.05,
+      "amount": 320.19,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Interior door - slab only",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 236.55,
+      "amount": 1163.19,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Baseboard - 3 1/4\" MDF",
+      "quantity": 10.85,
+      "unit": "LF",
+      "unit_price": 3.17,
+      "amount": 42.36,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Apply antimicrobial agent",
+      "quantity": 628.84,
+      "unit": "SF",
+      "unit_price": 0.34,
+      "amount": 262.77,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Smoke odor treatment - thermal fog",
+      "quantity": 71.45,
+      "unit": "SF",
+      "unit_price": 0.48,
+      "amount": 42.65,
+      "category": "Kitchen"
+    },
+    {
+      "description": "R&R kitchen base cabinet",
+      "quantity": 19.25,
+      "unit": "LF",
+      "unit_price": 208.15,
+      "amount": 4938.35,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Roofing - laminated comp. shingle",
+      "quantity": 15.04,
+      "unit": "SQ",
+      "unit_price": 273.71,
+      "amount": 5097.66,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Install drywall - 1/2\" hung, taped, floated",
+      "quantity": 278.68,
+      "unit": "SF",
+      "unit_price": 2.88,
+      "amount": 999.22,
+      "category": "Kitchen"
+    },
+    {
+      "description": "Remove drywall - 1/2\"",
+      "quantity": 527.72,
+      "unit": "SF",
+      "unit_price": 1.08,
+      "amount": 704.8,
+      "category": "Kitchen"
+    }
+  ],
+  "traps": [
+    "xactimate",
+    "conflicting_dates",
+    "stamp"
+  ],
+  "scan": true
+}

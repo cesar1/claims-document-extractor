@@ -1,0 +1,82 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-7265032",
+    "policy_number": null,
+    "insured_name": "Courtney Smith",
+    "property_address": "0901 Amber Cliffs Apt. 283, Timothystad, IL 44836",
+    "date_of_loss": "2026-05-05",
+    "cause_of_loss": "water",
+    "cause_of_loss_detail": "Water Damage - burst supply line",
+    "vendor_name": "Snyder-Anderson",
+    "invoice_number": "INV-57924",
+    "invoice_date": "2026-05-25",
+    "subtotal": 7613.45,
+    "tax": 609.08,
+    "total": 8222.53,
+    "amount_due": 5755.77
+  },
+  "line_items": [
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 326.21,
+      "amount": 652.42,
+      "category": null
+    },
+    {
+      "description": "Emergency board-up service",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 405.11,
+      "amount": 1215.33,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 665.46,
+      "amount": 3327.3,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 278.37,
+      "amount": 278.37,
+      "category": null
+    },
+    {
+      "description": "Storage container rental",
+      "quantity": 2,
+      "unit": "MO",
+      "unit_price": 225.1,
+      "amount": 450.2,
+      "category": null
+    },
+    {
+      "description": "Dumpster - 20 yd",
+      "quantity": 3,
+      "unit": "EA",
+      "unit_price": 496.44,
+      "amount": 1489.32,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 200.51,
+      "amount": 200.51,
+      "category": null
+    }
+  ],
+  "traps": [
+    "conflicting_dates",
+    "stamp"
+  ],
+  "scan": false
+}

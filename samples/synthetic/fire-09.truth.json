@@ -1,0 +1,23 @@
+{
+  "doc_type": "fire_report",
+  "fields": {
+    "claim_number": null,
+    "policy_number": null,
+    "insured_name": "Miguel Thomas",
+    "property_address": "0930 Ortiz Landing, New Larry, IL 04625",
+    "date_of_loss": "2026-04-20",
+    "cause_of_loss": "fire",
+    "cause_of_loss_detail": "Accidental - space heater too close to bedding",
+    "incident_number": "2026-55676",
+    "fire_department": "Kelleyland Fire Department",
+    "alarm_time": "2026-04-20T19:51",
+    "arrival_time": "2026-04-20T20:00",
+    "area_of_origin": "Bedroom",
+    "cause_determination": "Accidental - space heater too close to bedding",
+    "injuries": 0,
+    "fatalities": 0,
+    "narrative_summary": "Engine and ladder companies responded to a reported structure fire at the above address. On arrival crews found smoke showing from the bedroom. Fire was contained to the area of origin and extinguished with one handline. Occupants were evacuated prior to arrival. Scene turned over to the owner after overhaul."
+  },
+  "line_items": [],
+  "scan": false
+}

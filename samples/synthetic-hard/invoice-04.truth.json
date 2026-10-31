@@ -1,0 +1,73 @@
+{
+  "doc_type": "invoice",
+  "fields": {
+    "claim_number": "CLM-6591716",
+    "policy_number": null,
+    "insured_name": "Wesley Jennings",
+    "property_address": "71008 Thomas Ferry, East Geraldburgh, LA 88704",
+    "date_of_loss": "2026-04-04",
+    "cause_of_loss": "wind",
+    "cause_of_loss_detail": "Windstorm - roof damage",
+    "vendor_name": "Riley and Sons",
+    "invoice_number": "INV-98088",
+    "invoice_date": "2026-04-24",
+    "subtotal": 6873.23,
+    "tax": 549.86,
+    "total": 7423.09,
+    "amount_due": 7423.09
+  },
+  "line_items": [
+    {
+      "description": "Emergency board-up service",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 462.45,
+      "amount": 1849.8,
+      "category": null
+    },
+    {
+      "description": "Plumbing repair - supply line",
+      "quantity": 4,
+      "unit": "EA",
+      "unit_price": 280.95,
+      "amount": 1123.8,
+      "category": null
+    },
+    {
+      "description": "Electrical inspection",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": 273.08,
+      "amount": 273.08,
+      "category": null
+    },
+    {
+      "description": "Water mitigation - day rate",
+      "quantity": 5,
+      "unit": "DA",
+      "unit_price": 630.1,
+      "amount": 3150.5,
+      "category": null
+    },
+    {
+      "description": "Replacement window - vinyl double hung",
+      "quantity": 2,
+      "unit": "EA",
+      "unit_price": 328.56,
+      "amount": 657.12,
+      "category": null
+    },
+    {
+      "description": "Insurance adjustment",
+      "quantity": 1,
+      "unit": "EA",
+      "unit_price": -181.07,
+      "amount": -181.07,
+      "category": null
+    }
+  ],
+  "traps": [
+    "credit_line"
+  ],
+  "scan": false
+}
