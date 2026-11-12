@@ -8,6 +8,7 @@ attach to the fields it names. Severity:
     info     context for the reviewer; does not by itself require review
 """
 
+from collections import defaultdict
 from datetime import date
 from enum import Enum
 
@@ -305,6 +306,27 @@ class _Checker:
                     "check those lines for misreads.",
                     ["line_items"],
                     off[:25],
+                )
+
+        # Two lines with the same quantity, unit, unit price and amount are often one piece of
+        # work billed twice, sometimes under different wording. The sums still reconcile, so
+        # nothing above catches it.
+        same_charge: dict[tuple, list[int]] = defaultdict(list)
+        for i, li in checkable:
+            if li.amount:
+                key = (li.quantity, (li.unit or "").strip().lower(), li.unit_price, li.amount)
+                same_charge[key].append(i)
+        for indices in same_charge.values():
+            if len(indices) > 1:
+                numbers = [str(i + 1) for i in indices]
+                self.flag(
+                    "duplicate_lines",
+                    Severity.warning,
+                    f"Lines {', '.join(numbers[:-1])} and {numbers[-1]} have the same quantity, "
+                    f"unit price and amount ({_fmt(lines[indices[0]].amount)}); "
+                    "possible duplicate charge.",
+                    ["line_items"],
+                    indices,
                 )
 
         low = [i for i, li in enumerate(lines) if li.confidence < self.threshold]

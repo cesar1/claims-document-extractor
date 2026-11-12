@@ -99,6 +99,38 @@ def test_missing_line_item_breaks_reconciliation():
     assert "lines_mismatch" in rules(rep, Severity.error)
 
 
+def test_duplicate_charges_are_flagged_even_though_the_math_works():
+    lines = [
+        _line("Emergency service call", 1, 285.0),
+        _line("Air mover (per 24 hour period)", 12, 31.5),
+        _line("Remove baseboard", 30, 0.68),
+        _line("Air mover - daily rental", 12, 31.5),  # same charge, different wording
+        _line("Remove baseboard", 16, 0.68),  # same work in another room: not a duplicate
+        _line("Emergency service call", 1, 285.0),
+        _line("Emergency service call", 1, 285.0),
+    ]
+    subtotal = sum(li["amount"] for li in lines)
+    fields = {**INVOICE, "subtotal": subtotal, "tax": 0, "total": subtotal, "amount_due": subtotal}
+    rep = validate(_result("invoice", fields, lines), today=TODAY)
+
+    assert rep.errors == 0
+    dupes = [f for f in rep.flags if f.rule == "duplicate_lines"]
+    assert all(f.severity is Severity.warning for f in dupes)
+    assert [f.line_indices for f in dupes] == [[0, 5, 6], [1, 3]]
+    assert "Lines 1, 6 and 7" in dupes[0].message and "$285.00" in dupes[0].message
+    assert "Lines 2 and 4" in dupes[1].message
+
+
+def test_same_numbers_in_different_units_are_not_duplicates():
+    lines = [
+        {**_line("Seal floor", 60, 1.0), "unit": "SF"},
+        {**_line("Caulk trim", 60, 1.0), "unit": "LF"},
+        _line("Dumpster", 1, 180.0),
+    ]
+    rep = validate(_result("invoice", INVOICE, lines), today=TODAY)
+    assert "duplicate_lines" not in rules(rep)
+
+
 def test_single_misread_line_is_pinpointed():
     lines = [_line(f"Item {i}", 1, 10.0) for i in range(4)] + [
         _line("Misread", 3, 10.0, amount=80.0)

@@ -8,6 +8,9 @@ in `frontend/` (not built yet).
 - Tests: `.venv/Scripts/python -m pytest -q`
 - Lint/format: `.venv/Scripts/python -m ruff check . && .venv/Scripts/python -m ruff format .`
 - Extract (live, costs money): `.venv/Scripts/python -m app.extract ../samples/real/<file>.pdf`
+- API server: `.venv/Scripts/python -m uvicorn app.main:create_app --factory --reload` (docs at `/docs`).
+  `POST /documents` and `POST /documents/{id}/reextract` each make a live Claude call (costs money);
+  everything else is free. Uploads + SQLite live in `data/` (`EXTRACTOR_DATA_DIR` overrides).
 
 ## Eval (run from repo root; needs `pip install -e "backend[dev,eval]"`)
 - Regenerate synthetic docs + truth: `backend/.venv/Scripts/python scripts/gen_synthetic.py [--profile hard]` (easy -> samples/synthetic, hard -> samples/synthetic-hard; the easy profile must stay byte-reproducible, so hard-only randomness goes behind `g.trap()`/`g.hard`)
