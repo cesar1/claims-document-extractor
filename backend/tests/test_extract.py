@@ -76,6 +76,7 @@ def fake_message(parsed, stop_reason="end_turn"):
     )
     return SimpleNamespace(
         id="msg_test",
+        model="claude-opus-5-5",
         stop_reason=stop_reason,
         stop_details=None,
         parsed_output=parsed,

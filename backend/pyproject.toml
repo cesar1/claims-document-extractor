@@ -5,12 +5,17 @@ description = "Extract structured JSON from insurance claim PDFs with Claude, wi
 requires-python = ">=3.11"
 dependencies = [
     "anthropic>=0.75",
+    "fastapi>=0.115",
     "pydantic>=2.8",
     "python-dotenv>=1.0",
+    "python-multipart>=0.0.9",
+    "sqlmodel>=0.0.22",
+    "uvicorn>=0.30",
 ]
 
 [project.optional-dependencies]
 dev = [
+    "httpx>=0.27",
     "pytest>=8",
     "ruff>=0.6",
 ]

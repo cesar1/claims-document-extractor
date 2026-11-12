@@ -42,6 +42,7 @@ class Extraction:
     output_tokens: int
     cost_usd: float
     message_id: str
+    model: str  # the model that answered; differs from MODEL when a server-side fallback ran
 
 
 def cost_usd(usage, batch: bool = False) -> float:
@@ -140,6 +141,7 @@ def extract_pdf(pdf_bytes: bytes, client: anthropic.Anthropic | None = None) -> 
         output_tokens=message.usage.output_tokens,
         cost_usd=cost_usd(message.usage),
         message_id=message.id,
+        model=message.model,
     )
 
 
